@@ -1,5 +1,4 @@
--- Netflix Data Analysis using SQL
--- Solutions of 15 business problems
+-- Netflix Data Analysis using SQL.
 -- 1. Count the number of Movies vs TV Shows
 
 SELECT 
@@ -186,9 +185,4 @@ FROM (
 ) AS categorized_content
 GROUP BY 1,2
 ORDER BY 2
-
-
-
-
--- End of reports
 
